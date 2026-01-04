@@ -5,9 +5,10 @@ import Final from './tutorial/01-useState/final/04-useState-object';
 import Navbar from './tutorial/04-project-structure/starter/Navbar'; // 5
 import List from './tutorial/05-leverage-javascript/starter/List';
 import Starter6 from './tutorial/06-forms/starter/05-form-data';
+import Starter7 from './tutorial/07-useRef/starter/01-useRef-basics';
 
 function App() {
-  return <Starter6 />;
+  return <Starter7 />;
 }
 
 export default App;

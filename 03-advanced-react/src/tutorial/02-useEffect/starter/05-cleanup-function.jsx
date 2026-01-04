@@ -21,7 +21,7 @@ const RandomComponent = () => {
     window.addEventListener('scroll', f);
     return () => window.removeEventListener('scroll', f);
   }, []);
-  return <h1>hello there</h1>;
+  return <h1>hello there </h1>;
 };
 
 export default CleanupFunction;
