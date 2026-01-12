@@ -29,3 +29,17 @@ mkdir my-ts-project
 cd my-ts-project
 
 # (Ezután szerkeszd a tsconfig.json-t, és add hozzá a HTML/CSS/TS fájlokat)
+
+# Extensions
+
+Auto Rename Tag - Jun Han
+Hightlight Matching Tag - vincaslt
+Prettier - prettier
+
+- format on save
+- format on paste
+- default formatter-> prettier
+- single quote
+
+emet include: javascript javascriptreact
+ES7 snippets-dsznajder
