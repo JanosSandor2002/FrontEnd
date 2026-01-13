@@ -32,6 +32,8 @@ cd my-ts-project
 
 # Extensions
 
+Chrome: react developer tools
+
 Auto Rename Tag - Jun Han
 Hightlight Matching Tag - vincaslt
 Prettier - prettier
