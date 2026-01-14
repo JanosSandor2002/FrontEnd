@@ -7,9 +7,9 @@ import List from './tutorial/05-leverage-javascript/starter/List';
 import Starter6 from './tutorial/06-forms/starter/05-form-data';
 import Starter7 from './tutorial/07-useRef/starter/01-useRef-basics';
 import Starter8 from './tutorial/08-custom-hooks/starter/02-fetch-data';
-
+import Starter9 from './tutorial/09-context-api/starter/Navbar';
 function App() {
-  return <Starter8 />;
+  return <Starter9 />;
 }
 
 export default App;
