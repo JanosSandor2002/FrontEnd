@@ -8,8 +8,9 @@ import Starter6 from './tutorial/06-forms/starter/05-form-data';
 import Starter7 from './tutorial/07-useRef/starter/01-useRef-basics';
 import Starter8 from './tutorial/08-custom-hooks/starter/02-fetch-data';
 import Starter9 from './tutorial/09-context-api/starter/Navbar';
+import Starter10 from './tutorial/10-useReducer/starter/01-useReducer';
 function App() {
-  return <Starter9 />;
+  return <Starter10 />;
 }
 
 export default App;
