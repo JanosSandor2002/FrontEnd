@@ -2,7 +2,7 @@ import React from 'react';
 import { useReducer } from 'react';
 import { CLEAR_LIST, REMOVE_LIST, RESET_LIST } from './actions';
 import reducer from './actions';
-
+import { data } from '../../../data';
 const defaultState = {
   people: data,
 };
