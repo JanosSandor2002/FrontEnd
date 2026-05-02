@@ -45,5 +45,3 @@ Prettier - prettier
 
 emet include: javascript javascriptreact
 ES7 snippets-dsznajder
-
-thunder client-range vadhimeri
