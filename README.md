@@ -1,57 +1,63 @@
-# My Frontend Learning Journey
+🇬🇧 English | [🇭🇺 Magyar](README.hu.md)
 
-This repository is part of my path into the world of frontend web development. My goal is to gradually build up my skills and learn how to create modern web applications, starting from the basics and moving toward more advanced frameworks and tools.
+# frontend-practicing
 
-## Guide
+This repository is my frontend development practice space — a place to experiment with different technologies, libraries, and approaches in order to deepen my understanding and compare them side by side.
 
-You must change between repository branches to find my little projects as parts.
+## Repository Purpose
 
-## What I’ve Learned So Far
+Like its backend counterpart, this repo is intentionally a **sandbox**. Each branch represents a separate learning track, focused on mastering a specific frontend technology or exercise set in isolation.
 
-### HTML
+## Branch Structure
 
-- Beginner and advanced HTML
-- Page structures and layouts
-- Forms, links, and tables
-- Semantic HTML and accessibility
+There are currently **five active branches**:
 
-### CSS
+### `react-js`
 
-- Beginner and advanced CSS
-- Colors, typography, layouts
-- Flexbox and Grid
-- Animations and responsive design
+React practice — components, hooks, state management, and general React fundamentals, built outside of any specific project context.
 
-### JavaScript
+### `react-native`
 
-- Beginner and advanced JavaScript
-- Variables, functions, loops
-- DOM manipulation and events
-- Object-oriented and functional approaches
+React Native practice — building mobile UI with React, exploring navigation, native components, and the differences compared to web-based React development.
 
-### React
+### `html-css-ts`
 
-- Beginner-level React
-- Components, props, and state
-- Building simple projects
+Practice combining plain HTML and CSS with TypeScript — no framework, focused on strongly-typed DOM manipulation and structuring vanilla frontend code with TypeScript.
 
-## What I Want to Learn Next
+### `html-css-js`
 
-### Expanding HTML, CSS, and JavaScript
+Practice with plain HTML, CSS, and JavaScript — no framework, no TypeScript. Focused on core web fundamentals: DOM manipulation, styling, and vanilla JS logic.
 
-- jQuery
-- Bootstrap
+### `web-tech-exercise`
 
-### React and Modern Frontend Development
+Exercises from the **Web Technologies** university course — coursework and assignments completed as part of my studies, covering foundational web development topics.
 
-- Advanced React (hooks, context, optimization)
-- Tailwind CSS
-- Next.js (SSR and SSG features)
-- React Router for navigation
-- State management libraries (Redux, Zustand, etc.)
-- TypeScript with React
-- Working with APIs and asynchronous data
-- Testing (Jest, React Testing Library)
-- Deployment and build processes
+## Switching Between Branches
 
-This repository is not only a place for practice but also a kind of learning diary, showing how I grow as a frontend developer over time. My aim is to eventually be able to create structured, fast, and responsive web applications with confidence.
+```bash
+# List all branches
+git branch -a
+
+# Switch to a specific branch
+git checkout react-js
+git checkout react-native
+git checkout html-css-ts
+git checkout html-css-js
+git checkout web-tech-exercise
+
+# Pull down a branch that doesn't exist locally yet
+git fetch origin
+git checkout -b react-native origin/react-native
+```
+
+Since these branches represent independent practice tracks (and are not meant to be merged into one another), it's a good idea to run `git status` before switching, to make sure you're starting from a clean working directory.
+
+## Notes
+
+- Each branch is self-contained — code, dependencies, and structure differ intentionally between them.
+- Commit history within each branch reflects incremental learning steps rather than a single coherent feature roadmap.
+- This repo will likely grow over time as new technologies or exercises are added as new branches.
+
+## License
+
+Personal/educational project — not currently licensed for reuse.
